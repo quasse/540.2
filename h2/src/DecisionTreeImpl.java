@@ -59,6 +59,8 @@ public class DecisionTreeImpl extends DecisionTree {
 	public String classify(Instance instance) {
 
 		// TODO: add code here
+		
+		return null;
 	}
 
 	@Override
