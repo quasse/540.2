@@ -38,6 +38,8 @@ public class DecisionTreeImpl extends DecisionTree {
 		this.attributes = train.attributes;
 		this.attributeValues = train.attributeValues;
 		// TODO: add code here
+		
+		
 	}
 
 	/**
@@ -110,5 +112,16 @@ public class DecisionTreeImpl extends DecisionTree {
 		this.attributeValues = train.attributeValues;
 		// TODO: add code here
 
+	}
+	
+	/**
+	 * Iterates through attributeValues to find the most occurring label.
+	 * This label will be used as the default guess when no clear series of 
+	 * questions can predict an answer.
+	 * @param attributeValues
+	 * @return
+	 */
+	private String findMajorityLabel( Map<String, List<String>> attributeValues){
+		
 	}
 }
